@@ -5,8 +5,12 @@ import org.junit.Test;
 public class TestTest {
 
 	@Test
-	public void test() {
-		fail("Not yet implemented");
+	public void testInitialization() 
+	{
+		MyTest t = new MyTest();
+		assertNotNull(t);
+		
+		
 	}
 
 }
